@@ -1,0 +1,22 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+}
+.body{
+    background:url(/imagenes/imagen1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cont{
+    margin: 30px auto;
+    width: 80%;
+    padding: 30px;
+}
+.fondo{
+    background-color: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 16px;
+    box-shadow: 2px 5px 12px 9px rgba(0,0,0,0.31);
+}
